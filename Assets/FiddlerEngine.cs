@@ -65,7 +65,7 @@ public class FiddlerEngine : FiddlerBehaviour {
 		float ms = 0.001f;
 		for (int i = 0; i < dialog.Length; i++) {
 			text.text = dialog.Substring(0, i);
-			yield return new WaitForSeconds(50 * ms);
+			yield return new WaitForSeconds(20 * ms);
 		}
 		yield return new WaitForSeconds(1.0f);
 		curMsg += 1;
