@@ -2,6 +2,7 @@
 
 Fiddler is an AR + AI Choose Your Own Adventure Game. Use Object Detection and create AR experiences!
 
+![Demo](img/demo.gif)
 
 ## Purpose
 
@@ -26,6 +27,8 @@ The Fiddler Engine uses Augmented Reality through Google's ARCore to accomplish 
 - placing "save posts" which advance the game and signal the end of an interaction (the "handshake")
 
 - augmenting faces to achieve the initial face filter-esque effect (depends on ARCore 1.7.0 for Augmented Faces)
+
+![face demo](img/face.gif)
 
 - delivering a camera feed (we have methods to process both the YUV-420-888 color space that can be read into byte channels from `Frame.AcquireCameraImageBytes()` and to capture full RGB images using the screencapture API)
 
